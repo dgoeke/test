@@ -1,3 +1,5 @@
 test:
+  pre:
+    - echo "this is a thing" > $CIRCLE_ARTIFACTS/mine.txt
   override:
     - echo nope
